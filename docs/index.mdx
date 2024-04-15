@@ -100,7 +100,7 @@ The point of this component is primarily for animation purposes. This is not to 
 This is an example of a result you probably do not want: adding extra content using the wrappers will result in incorrect splitting.
 
 <Playground>
-  <SplitText LineWrapper={({ lineIndex, children }) => <span className="wrapper">{children}<b>(line {lineIndex})</b></span> }>
+  <SplitText LineWrapper={({ linesdsIndex, children }) => <span className="wrapper">{children}<b>(line {lineIndex})</b></span> }>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
   </SplitText>
 </Playground>
